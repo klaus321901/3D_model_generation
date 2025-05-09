@@ -12,14 +12,19 @@ This project leverages several Python libraries, including OpenCV for image proc
 - **3D Model Generation**: Constructs a simple 3D mesh based on the extracted contours.
 - **STL File Output**: Saves the generated 3D model as an STL file for 3D printing or further use in 3D visualization tools.
 - **Virtual Environment**: A virtual environment to manage dependencies and avoid conflicts with other projects.
-
+  
 ## Project Structure
-3d_model_generator/
-├── assets/
-│   └── output.png
-├── README.md
-├── generate_3d_model.py
-...
+
+ 
+3d_model_generator<br />
+├── generate_3d_model.py        # Main script for generating the 3D model<br />
+├── input_handling.py           # Handles image input and object extraction<br />
+├── input<number>               # sample inputs<br />
+├── requirements.txt            # Lists all Python dependencies<br />
+├── README.md                   # Project documentation<br />
+├── output_model.stl            # Generated 3D model file (STL format)<br />
+└── output<screenshot_number>.png       # Screenshot of output (for README)<br />
+
 
 
 
