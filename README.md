@@ -14,6 +14,12 @@ This project leverages several Python libraries, including OpenCV for image proc
 - **Virtual Environment**: A virtual environment to manage dependencies and avoid conflicts with other projects.
 
 ## Project Structure
+3d_model_generator/
+├── assets/
+│   └── output.png
+├── README.md
+├── generate_3d_model.py
+...
 
 
 
